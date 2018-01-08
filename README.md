@@ -81,11 +81,12 @@ _n
 用于快速新建幻灯片内容。
 
 ```Shell
-cd next
-git add .
-git commit -m "Modify"
-git push
-echo "finish."
+echo "name: "
+read name
+mkdir $name
+cd $name
+touch info.txt
+echo "finish"
 ```
 
 #### switch.sh
